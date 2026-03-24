@@ -14,10 +14,6 @@ RUN apt update && apt install -y \
     libglib2.0-0 \
     libgl1 \
 
-libsm6 \
-    libxext6 \
-    libxrender-dev
-
 # Set Python 3.10 as default
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
 
